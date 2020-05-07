@@ -1,7 +1,9 @@
 How to run
-python iss_req.py <arguments>
 
-*
+```
+python iss_req.py <arguments>
+```
+
 arguments:
- location
- astronaut
+ * location
+ * astronaut
