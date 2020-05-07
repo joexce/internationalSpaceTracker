@@ -10,7 +10,7 @@ def getLatLong():
 def getAstronaut():
     request = requests.get(url+"astros.json")
     data = request.json()["people"]
-    print ("----- ISS ASTRONOT -----")
+    print ("----- ISS ASTRONAUT -----")
     for i in data:
         print "Name ", i["name"]
 
